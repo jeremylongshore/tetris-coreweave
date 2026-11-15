@@ -1,0 +1,8 @@
+# Jeremy explicitly wants CodeRabbit off. Keep the GitHub App suspended.
+# Reference: https://docs.coderabbit.ai/reference/configuration
+reviews:
+  auto_review:
+    enabled: false
+    auto_incremental_review: false
+chat:
+  auto_reply: false

@@ -1,0 +1,35 @@
+# Local environments and generated Python files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# Runtime artifacts; preserve them through the confirmed artifact workflow
+run*/
+runs/
+artifacts/
+data/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.log
+*.zip
+
+# Editors and OS metadata
+.DS_Store
+.idea/
+.vscode/
+
+# Beads manages its own native storage ignores. Keep the generated ID map in git.
+planning/.beads-import.lock
